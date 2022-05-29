@@ -45,11 +45,11 @@ Cell имеет метод std::vector\<Position\> GetReferencedCells() возв
 ## cборка с помощью CMake
 
 - Скачайте и установите [Java SE Runtime Environment 8](https://www.antlr.org) под вашу систему.
-- Создайте папку для сборки программы.
-- Перенесите в папку  antlr.jar (Complete ANTLR Java binaries jar не ниже 4.7.2-complete), скачанный с официального сайта. С репозитория antlr так же скачайте [runtime для c++](https://github.com/antlr/antlr4/tree/master/runtime/Cpp) и сохраните паку antlr4_runtime с ним в папку проекта.
-- Введите команду: cmake<путь к папке программы>.
-- Будут сгенерированы коды дерева ANTLR в<путь к папке программы>\antlr4cpp_generated_src\Formula.
-- Введите команду: cmake --build<путь к папке программы>.
-- После сборки в папке сборки появится исполняемый файл spreadsheet.exe.
+- Создайте директорию для сборки программы.
+- Перенесите в директорию  antlr.jar (Complete ANTLR Java binaries jar не ниже 4.7.2-complete), скачанный с официального сайта. С репозитория antlr так же скачайте [runtime для c++](https://github.com/antlr/antlr4/tree/master/runtime/Cpp) и сохраните директорию antlr4_runtime с ним в директорию проекта.
+- Введите команду: cmake<путь к директорию программы>.
+- Будут сгенерированы коды дерева ANTLR в<путь к директорию программы>\antlr4cpp_generated_src\Formula.
+- Введите команду: cmake --build<путь к директорию программы>.
+- После сборки появится исполняемый файл spreadsheet.exe.
 
 Это лишь ядро электронной таблицы, не для прямого использования, но в main.cpp собраны всевозможные тесты на примере которых видно как обращаться к классам программы.

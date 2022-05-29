@@ -48,7 +48,7 @@ GetReferencedCells() возвращающий адреса ячеек задей
 
 - Скачайте и установите [Java SE Runtime Environment 8](https://www.antlr.org) под вашу систему.
 - Создайте папку для сборки программы.
-- Перенесите в папку  antlr.jar (Complete ANTLR Java binaries jar не ниже 4.7.2-complete). Скачанный с официального сайта и с репозитория antlr так же скачайте [runtime для c++](https://github.com/antlr/antlr4/tree/master/runtime/Cpp), сохрани. паку antlr4_runtime с ним в папку проект.
+- Перенесите в папку  antlr.jar (Complete ANTLR Java binaries jar не ниже 4.7.2-complete), скачанный с официального сайта. С репозитория antlr так же скачайте [runtime для c++](https://github.com/antlr/antlr4/tree/master/runtime/Cpp) и сохраните паку antlr4_runtime с ним в папку проекта.
 - Введите команду: cmake<путь к папке программы>.
 - Будут сгенерированы коды дерева ANTLR в<путь к папке программы>\antlr4cpp_generated_src\Formula.
 - Введите команду: cmake --build<путь к папке программы>.
